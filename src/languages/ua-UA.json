@@ -1,0 +1,108 @@
+{
+  "home.description": "IT компанія",
+  "home.order": "Замовити послугу",
+  "home.title": "Легко, якісно, IT - <br />виграшні рішення <br />для вашого бізнесу",
+  
+  "home.contact-us": "КОНТАКТИ",
+  "menu.services": "Послуги",
+  "menu.projects": "Проєкти",
+  "menu.faq": "FAQ",
+  "main-order": "Замовити",
+
+  
+  "advantages.title": "Чому ми?",
+  "advantages.description": "Ваші <strong>ІТ-рішення</strong> в надійних руках",
+  
+  "advantages.marketplace.title": "Маркетплейс",
+  "advantages.marketplace.description":  "Volstiny production - маркетплейс для дизайнерського агентства. Потужний і креативний веб-сайт для творців. Унікальний дизайн, безліч анімацій і внутрішній ринок – веб-сайт швидший за Forest Gump і готовий до SEO-реклами кампанії",
+  "advantages.delivery-service.title": "Сервіс доставки",
+  "advantages.delivery-service.description": "Банкетний зал Ірен - служба доставки смачної їжі від Ірен. З можливістю зареєструватися, замовити та оплатити прямо на сайті!",
+  "advantages.web-service.title": "Web Розробка",
+  "advantages.web-service.description": "Lernitlive - веб-сервіс для тренерів і спеціалістів, де вони можуть навчати онлайн. Простими словами - це маркетплейс з додатковим функціоналом для проходження курсів і відвідуванням занять. Ви можете переглянути курси, вибрати свого тренера, відповідно до його оцінок та відгуків. Функціонал: ви можете зареєструватися, купити заняття, поспілкуватися зі своїм тренером",
+  "advantages.time-saving.title": "Економія часу",
+  "advantages.time-saving.description": "Розробка веб-сайту може бути трудомістким процесом, особливо для тих, хто не має досвіду веб-розробки. Клієнти можуть мати обмежений час і ресурси, щоб присвятити створенню веб-сайту під час керування своїм бізнесом або виконанням інших обов’язків. Замовлення послуг із розробки веб-сайтів дозволяє їм заощадити час і зосередитися на своїй основній діяльності, а команда розробників піклується про створення та підтримку їх присутності в Інтернеті.",
+  "advantages.customization.title": "Налаштування та масштабованість",
+  "advantages.customization.description": "Кожен бізнес або окрема особа має унікальні потреби та цілі щодо свого веб-сайту. Замовлення послуг із розробки веб-сайтів дозволяє клієнтам налаштувати свої веб-сайти відповідно до їхніх конкретних вимог. Незалежно від того, чи це сайт електронної комерції, веб-сайт портфоліо, блог чи корпоративний сайт, професійні розробники можуть налаштувати функції, дизайн і функціональність веб-сайту відповідно до цілей клієнта.",
+  "advantages.expertise.title": "Професійна експертиза",
+  "advantages.expertise.description": "Багатьом підприємствам і окремим особам у Сполучених Штатах може не вистачати технічних знань і навичок, необхідних для розробки та розробки веб-сайту, який відповідає сучасним стандартам і очікуванням користувачів. Замовляючи послуги з розробки веб-сайтів, вони можуть скористатися досвідом професіоналів, які розуміють принципи веб-дизайну, мови кодування, дизайн взаємодії з користувачем (UX) і пошукову оптимізацію (SEO).",
+  
+  "services.title": "Наші послуги",
+  "services.software-development.title": "Розробка програмного забезпечення",
+  "services.software-development.description": "Наше програмне забезпечення спрямоване на вирішення ваших бізнес-проблем і задоволення конкретних бізнес-потреб. Наша досвідчена команда може розробити програмне забезпечення для широкого кола галузей промисловості та застосувань, зокрема сільського господарства, фінансів, охорони здоров’я та логістики тощо. Наша мета — надати високоякісне програмне забезпечення, яке вирішить ваші бізнес-завдання та проблеми, а також оптимізує робочі процеси, щоб допомогти вашому бізнесу розвиватися.",
+  "services.software-development.item1": "Швидко",
+  "services.software-development.item2": "Якісно",
+  "services.software-development.item3": "Перспективно",
+  "services.software-development.item4": "Безперечна якість",
+  
+  "services.creation-unique-ERP-systems.title": "Створення унікальних ERP систем",
+  "services.creation-unique-ERP-systems.description": "Розробка індивідуальних систем ERP (Enterprise Resource Planning) - системи, які оптимізують ваші бізнес-операції, покращують зв’язок між відділами та автоматизують процеси. Наші ERP-рішення адаптовані до унікальних потреб вашого бізнесу та можуть бути інтегровані з іншими програмними рішеннями для створення комплексної системи управління бізнесом.",
+  "services.creation-unique-ERP-systems.item1": "Важливий кожен",
+  "services.creation-unique-ERP-systems.item2": "Лідерство в галузі",
+  "services.creation-unique-ERP-systems.item3": "Гнучкість",
+  "services.creation-unique-ERP-systems.item4": "Дружні відносини",
+
+  "services.сreation-online-store.title": "Створення інтернет магазину",
+  "services.сreation-online-store.description": "Ми пропонуємо послуги з розробки інтернет-магазину для клієнтів, які хочуть створити онлайн-версію свого бізнесу. Наша команда може розробити та налаштувати веб-сайт для електронної комерції, який буде простим у використанні та забезпечить безперебійну взаємодію з користувачем. Наша мета — допомогти вам збільшити онлайн-продажі, розширити клієнтську базу та покращити загальну ефективність бізнесу. Глибоке розуміння та великий досвід дозволяє нам створювати найбільш конверсійні інтернет-магазини для вас.",
+  "services.сreation-online-store.item1": "Комунікація",
+  "services.сreation-online-store.item2": "Ефективність",
+  "services.сreation-online-store.item3": "Якість",
+  "services.сreation-online-store.item4": "Досвід & прозорість",
+
+  "services.support.title": "Підтримка та оновлення",
+  "services.support.description": "Ми пропонуємо постійну підтримку та оновлення, щоб гарантувати, що ваші програмні рішення залишаються актуальними та повністю функціональними. Наша команда підтримки завжди готова вирішити будь-які проблеми що виникають, тому ми надаємо регулярні оновлення для покращення продуктивності та додаємо нові функції, якщо це необхідно. Наша мета — забезпечити нашим клієнтам душевний спокій і щоб їхні програмні рішення йшли в ногу з часом .",
+  "services.support.item1": "Постійні покращення",
+  "services.support.item2": "Контроль",
+  "services.support.item3": "Спілкування",
+  "services.support.item4": "Покращення",
+
+  "services.development-bots.title": "Розробка ботів",
+  "services.development-bots.description": "Ми спеціалізуємося на розробці індивідуальних ботів, які можуть автоматизувати завдання та підвищити ефективність. Ми можемо створювати ботів для широкого спектру програм, включаючи обслуговування клієнтів, соціальні мережі та продажі тощо. Наша мета — надати вам передову технологію, яка покращує продуктивність і покращує взаємодію з клієнтами.",
+  "services.development-bots.item1": "Автоматизація",
+  "services.development-bots.item2": "Інновації",
+  "services.development-bots.item3": "Якість",
+  "services.development-bots.item4": "Надійність",
+
+  "services.transfer-sites.title": "Перенесення сайтів",
+  "services.transfer-sites.description": "Ми пропонуємо послуги перенесення веб-сайту для клієнтів, які хочуть перенести свій веб-сайт з однієї платформи на іншу. Наша команда розробників гарантує, що перехід буде плавним і безперебійним, а веб-сайт залишатиметься повністю функціональним протягом усього процесу. Наша мета полягає в тому, щоб звести до мінімуму будь-які збої в онлайн бізнесі наших клієнтів і гарантувати що їхній веб-сайт продовжить відповідати їхнім потребам.",
+  "services.transfer-sites.item1": "Вміння",
+  "services.transfer-sites.item2": "Результативність",
+  "services.transfer-sites.item3": "В ногу з часом",
+  "services.transfer-sites.item4": "Швидкість",
+
+
+  "projects.title": "Наше портфоліо",
+  "projects.description": "Кожен сайт створюється командою професіоналів, які мають великий досвід у сфері дизайну та веб-розробки.",
+  "projects.visit": "Відвідати вебсайт",
+  "projects.marketplace.title": "Маркетплейс",
+  "projects.marketplace.description":  "Volstiny production - маркетплейс для дизайнерського агентства. Потужний і креативний веб-сайт для творців. Унікальний дизайн, безліч анімацій і внутрішній ринок – веб-сайт швидший за Forest Gump і готовий до SEO-реклами кампанії",
+  "projects.delivery-service.title": "Сервіс доставки",
+  "projects.delivery-service.description": "Банкетний зал Ірен - служба доставки смачної їжі від Ірен. З можливістю зареєструватися, замовити та оплатити прямо на сайті!",
+  "projects.web-service.title": "Web Розробка",
+  "projects.web-service.description": "Lernitlive - веб-сервіс для тренерів і спеціалістів, де вони можуть навчати онлайн. Простими словами - це маркетплейс з додатковим функціоналом для проходження курсів і відвідуванням занять. Ви можете переглянути курси, вибрати свого тренера, відповідно до його оцінок та відгуків. Функціонал: ви можете зареєструватися, купити заняття, поспілкуватися зі своїм тренером",
+
+  "contacts.title": "Є ідея? Розкажіть нам про це",
+  "contacts.send": "Відправити",
+  "contacts.success": "Дякую!",
+
+  "form.name": "Ім'я",
+  "form.email": "Ваш Email",
+  "form.message": "Повідомлення",
+
+  "faq.title": "Поширені питання",
+  "faq.description": "Якщо у вас залишилися питання щодо розробки сайту, наші менеджери з радістю проконсультують вас особисто.",
+
+  "faq.question1": "Are there any additional payments?",
+  "faq.answer1": "The price indicated on this site includes only the cost of site development. Additionally, you will need to pay for a website subscription on the Weblium platform.",
+  "faq.question2": "Will SEO promotion of a ready website be effective?",
+  "faq.answer2": "Certainly. Websites are built on our own Weblium platform that is SEO-friendly. You will not have any difficulties with website promotion in search engines.",
+  "faq.question3": "How can we speed up the process of creating a website?",
+  "faq.answer3": "The minimum term for creating a landing page is 10 days. If you need a ready website faster, we ask you to prepare all materials and information to be used on the website in advance, as well as to promptly respond to our account managers. Having all the necessary information and reducing the time allotted for filling out the brief and approvals, we can make your site faster.",
+  "faq.question4": "You have sent me a demo of the homepage, but I don’t like it, what should I do?",
+  "faq.answer4": "If you are not satisfied with the design of the main page, we will take your comments into account, select new references, and our designer will make another version of the main page based on the new information.",
+  "faq.question5": "Is it possible to decline your services and get a refund for the site?",
+  "faq.answer5": "If you are not satisfied with the quality of the Weblium Studio's services, you can request a full refund until the design of the main page is confirmed. If the site is approved and transferred to your account on our platform, the project is considered closed, and the funds spent on its development are non-refundable.",
+  
+  "widget.title": "Знижка на перше замовлення",
+  "widget.description": "Отримайте 10% знижки на ваше перше замовлення!",
+  "widget.button": "Отримати знижку"
+}

@@ -1,0 +1,73 @@
+@import '../../style/variables.scss';
+
+.social {
+  padding: 20px 0;
+  background-color: $secondary-color;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__item {
+    position: relative;
+
+    display: flex;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &:not(:last-child)::after {
+      content: '';
+      left: 50%;
+      position: absolute;
+      height: 100%;
+      width: 1px;
+      background: $primary-color;
+      transform: translateX(35px) rotate(15deg);
+    }
+  }
+
+  &__link {
+    font-size: 30px;
+    color: $primary-color;
+  }
+
+  &__icon {
+    &:hover {
+      animation: rotate 4s linear infinite;
+      color: #2879b3;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 991px) {
+  .social {
+    padding: 10px 0;
+
+    &__list {
+      gap: 30px;
+    }
+
+    &__link {
+      font-size: 24px;
+    }
+
+    &__item {
+      &:not(:last-child)::after {
+        left: 20%;
+        transform: translateX(35px) rotate(15deg);
+      }
+    }
+  }
+}

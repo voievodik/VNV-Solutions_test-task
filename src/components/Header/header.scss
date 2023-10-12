@@ -1,0 +1,217 @@
+@import '../../style/variables.scss';
+@import '../../style/mixins.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2.5%;
+
+  &__languages-and-order {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.languages {
+  display: flex;
+
+  &__button {
+    margin: 0 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    color: #7D7C7C;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+      color: #9D76C1;
+    }
+
+    &:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -10px;
+      width: 1px;
+      height: 22px;
+      color: $primary-color;
+      background-color: $primary-color;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.order {
+  &__button {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    border: none;
+    position: relative;
+
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Montserrat, sans-serif;
+    background-color: transparent;
+    color: $primary-color;
+    transition: all 0.5s;
+    cursor: pointer;
+
+    &::before {
+      @include content-position;
+
+      background-color: rgba(255,255,255,0.1);
+      transition: all 0.3s;
+    }
+
+    &::after {
+      @include content-position;
+
+      opacity: 0;
+      transition: all 0.3s;
+      border: 1px solid rgba(255,255,255,0.5);
+      transform: scale(1.2,1.2);
+    }
+
+    &:hover::before {
+      opacity: 0 ;
+      transform: scale(0.5,0.5);
+    }
+
+    &:hover::after {
+      opacity: 1;
+      transform: scale(1,1);
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  gap: 34px;
+
+  &__link {
+    text-transform: uppercase;
+    color: $primary-color;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    transition: color 0.3s;
+
+    &:hover {
+      color: transparent;
+      background: linear-gradient(90deg, transparent, $primary-color, transparent);
+      background-size: 200% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      animation: shimmer 2s linear infinite;
+    }
+  }
+
+  &__icons {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $secondary-color;
+    background-color: $primary-color;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    &__logo {
+      position: relative;
+      z-index: 101;
+    }
+    
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $primary-color;
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-200%);
+    transition: transform 0.5s ease-in;
+    
+    &__link {
+      color: $secondary-color;
+      font-size: 30px;
+
+      &:hover {
+        background-color: #4b44d0;
+      }
+    }
+
+    &__icons {
+      display: flex;
+      position: relative;
+      z-index: 99;
+    }
+  }
+
+  .order {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    z-index: 100;
+    
+    &__button {
+      transform: translate(-50%, -50%);
+      color: $primary-color;
+      z-index: 99;
+      background-color: $secondary-color;
+    }
+  }
+}
+
+.is-lang-active {
+  color: #9D76C1;
+  font-weight: 700;
+}
+
+.is-icons-active {
+  color: $primary-color;
+  background-color: $secondary-color;
+}
+
+.is-menu-active {
+  display: flex;
+  transform: translateY(0%);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+html:has(.is-menu-active) {
+  overflow: hidden;
+}
